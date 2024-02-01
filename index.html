@@ -147,7 +147,7 @@
         <br>
 
         <Label for="edad">Edad:</Label>
-        <input type="text" id="edad" value="Ingrese su edad">
+        <input type="text" id="edad" value="18" pattern="[0-9]+" title="Por favor ingrese un número válido para la edad">
         <br>
 
         <label for="sexo">Sexo:</label>
@@ -160,6 +160,10 @@
 
         <label for="email">Email:</label>
         <input type="email" id="email" required>
+        <br>
+
+        <label for="readonly">Solo Lectura:</label>
+        <input type="text" id="readonly" value="Valor solo de lectura" readonly>
         <br>
 
         <button type="button" onclick="resetForm()">Reset</button>
